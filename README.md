@@ -1,1 +1,7 @@
 # PBO-Tugas-1-Investasi
+![image alt](https://github.com/jhon555-sketch/PBO-Tugas-1-Investasi/blob/005d6f5188d2853031ad9243e68874ca371a06cb/Cuplikan%20layar%202025-04-29%20230842.png)
+### Gambar tersebut menampilkan proses interaksi pengguna dengan program Java bernama InvestasiApp melalui Command Prompt. Program ini merupakan simulasi investasi yang memiliki sistem login dan menu berdasarkan peran pengguna, yaitu admin dan customer. Pada bagian awal gambar, pengguna menjalankan program dengan berpindah ke direktori tempat file berada, mengompilasi program dengan javac, lalu menjalankannya menggunakan perintah java InvestasiApp.
+
+### Setelah program dijalankan, pengguna memilih untuk login dan memasukkan username admin serta password admin123, yang sesuai dengan kredensial admin bawaan. Setelah berhasil masuk sebagai admin, pengguna diarahkan ke menu admin yang menyediakan beberapa pilihan, termasuk pengelolaan data saham dan SBN (Surat Berharga Negara). Dalam gambar, pengguna memilih menu "Saham" dan melanjutkan ke submenu untuk menambahkan saham baru.
+
+### Pengguna menambahkan saham dengan kode BBCA, nama perusahaan Bank BCA, dan harga awal Rp9.250. Setelah itu, pengguna kembali ke menu sebelumnya dan memilih opsi untuk mengubah harga saham. Saham Bank BCA (BBCA) yang telah ditambahkan kemudian dipilih, dan harganya diperbarui dari Rp9.250 menjadi Rp9.500. Proses ini menunjukkan bagaimana admin dapat menambahkan serta memperbarui data saham yang akan digunakan oleh customer dalam aplikasi simulasi investasi ini.
