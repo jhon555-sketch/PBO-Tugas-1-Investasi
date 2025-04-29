@@ -99,23 +99,36 @@ public class InvestasiApp {
         }
     }
 
-    static void menuAdmin() {
-        while (true) {
-            System.out.println("\n=== Menu Admin ===");
-            System.out.println("1. Saham");
-            System.out.println("2. SBN");
-            System.out.println("3. Logout");
-            System.out.print("Pilih: ");
-            String pilih = input.nextLine();
+   static void menuAdmin() {
+    while (true) {
+        System.out.println("\n=== Menu Admin ===");
+        System.out.println("1. Saham");
+        System.out.println("2. SBN");
+        System.out.println("3. Logout");
+        System.out.print("Pilih: ");
+        
+        String pilih = input.nextLine().trim();  // Bersihkan spasi berlebih
 
-            switch (pilih) {
-                case "1": menuAdminSaham(); break;
-                case "2": menuAdminSBN(); break;
-                case "3": return;
-                default: System.out.println("Pilihan tidak valid");
-            }
+        if (pilih.isEmpty()) {
+            System.out.println("Input tidak boleh kosong.");
+            continue;
+        }
+
+        switch (pilih) {
+            case "1":
+                menuAdminSaham();
+                break;
+            case "2":
+                menuAdminSBN();
+                break;
+            case "3":
+                return;
+            default:
+                System.out.println("Pilihan tidak valid");
         }
     }
+}
+
 
     static void menuAdminSaham() {
         while (true) {
